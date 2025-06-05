@@ -9,14 +9,13 @@
 </head>
 
 <body class=" text-white font-sans">
-    <div class="bg-blue-600 rounded-b-[300px] overflow-hidden">
-
-        <header class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+    <div class="bg-[url('./banner-bg.jpeg')] rounded-b-[200px] overflow-hidden ">
+        <header class="bg-[url('./footer-bg.jpeg')] flex flex-wrap justify-between items-center p-4 w-full fixed z-50">
             <div class="flex items-center gap-2">
                 <img src="logo.png" alt="Logo" class="rounded-full">
                 <h1 class="text-2xl font-bold"></h1>
             </div>
-            <nav class="flex gap-6 text-white font-medium">
+            <nav class="flex gap-6 text-white font-medium ml-[550px]">
                 <a href="#" class="text-white">Home</a>
                 <a href="#" class="hover:bg-blue-400">Our Shop</a>
                 <a href="#" class="hover:bg-blue-400">Product Details</a>
@@ -24,7 +23,7 @@
                 <button class="bg-red-400 px-4 py-1 rounded-full text-white font-semibold">SIGN IN</button>
             </nav>
         </header>
-        <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-[150px]">
             <div class="space-y-4">
                 <p class="uppercase tracking-wide font-semibold text-white">Welcome to LUGX</p>
                 <h2 class="text-4xl md:text-5xl font-extrabold underline-style">Best Gaming Site<br> Ever!</h2><img
@@ -44,8 +43,7 @@
             </div>
             <div class="relative">
                 <div class="bg-white rounded-3xl p-4 relative shadow-lg w-[300px] h-[300px] ml-60">
-                    <img src="banner-image.jpeg" alt="Game Character"
-                        class="mt-10 w-[250px] h-[300px] mx-auto rounded-2xl object-cover -mt-10" />
+                    <div class="bg-[url('./banner-image.jpeg')] bg-cover bg-center md:h-screen w-full rounded-b-[170px] pb-[100px] mt-10 w-[250px] h-[300px] mx-auto rounded-2xl object-cover -mt-10"></div>
                     <div class="absolute top-3 right-3 bg-blue-600 text-white px-3 py-1 rounded-full font-bold">
                         $22
                     </div>
@@ -248,8 +246,8 @@
             <img src="categories-05.jpeg" alt="Warframe" class="w-full h-48 object-cover">
         </div>
     </div>
-    <section class="flex flex-col md:flex-row items-center justify-center py-12 gap-8 bg-white font-sans">
-        <div class="bg-gray-50 rounded-2xl p-8 shadow-md max-w-md -ml-[900px] absolute w-[400px]mt-[300px]">
+    <section class="flex flex-col md:flex-row items-center justify-center py-12 gap-8 bg-white font-sans ml-[350px]">
+        <div class="bg-gray-50 rounded-2xl p-8 shadow-md max-w-md -ml-[950px] absolute w-[400px] h-[600px] mt-[300px]">
             <h3 class="text-red-500 text-sm font-semibold uppercase mb-2">Our Shop</h3>
             <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                 Go Pre-Order Buy & Get Best <span class="text-blue-500">Prices</span> For You!
@@ -264,10 +262,10 @@
         <div class="w-full max-w-md rounded-2xl overflow-hidden shadow-md">
             <img src="cta-bg.jpeg" alt="Action Scene" class="w-full h-full object-cover">
         </div>
-        <div class="bg-gray-50 rounded-2xl p-[55px] shadow-md max-w-md w-[400px] -ml-[130px] mt-[200px]">
+        <div class="bg-gray-50 rounded-2xl p-[55px] shadow-md max-w-md w-[400px] -ml-[130px] h-[600px] mt-[500px]">
             <h3 class="text-red-500 text-sm font-semibold uppercase mb-2">Newsletter</h3>
             <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                Get Up To $100 Off Just Buy <span class="text-blue-500">Subscribe</span> Newsletter!
+                Get Up To $100 Off Just Buy <span class="text-blue-500 w-[50px]">Subscribe</span> Newsletter!
             </h2>
             <form class="flex items-center space-x-2">
                 <input type="email" placeholder="Your email..."
@@ -279,7 +277,7 @@
         </div>
 
     </section>
-    <footer class="bg-[url('./footer-bg.jpeg')] p-20 pt-5 rounded-t-full mt-80 text-white text-center">
+    <footer class="bg-[url('./footer-bg.jpeg')] p-20 pt-5 rounded-t-full mt-50 text-white text-center">
         <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. Design: TemplateMo</p>
     </footer>
 
